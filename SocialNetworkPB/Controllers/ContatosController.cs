@@ -45,7 +45,7 @@ namespace SocialNetworkPB.Controllers
 
         // PUT: api/Contatos/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [Authorize]
+        
         [HttpPut("{id}")]
         public async Task<IActionResult> PutContato(int id, Contato contato)
         {

@@ -14,6 +14,8 @@ namespace SocialNetworkPB.Data
         }
 
         public DbSet<Contato> Contatos { get; set; }
+
+        public DbSet<Jogo> Jogos { get; set; }
     }
 }
 
