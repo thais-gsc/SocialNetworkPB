@@ -12,12 +12,12 @@ namespace ClienteMVC.Controllers
         {
             List<Jogo> listaJogos = new List<Jogo>();
 
-            var accessToken = HttpContext.Session.GetString("JWToken");
+            var accessToken = HttpContext.Session.GetString("JWToken"); 
 
             using (var httpClient = new HttpClient())
             {
                 httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
-                using (var response = await httpClient.GetAsync("http://localhost:5092/api/Jogos"))
+                using (var response = await httpClient.GetAsync("https://localhost:5001/api/Jogos"))
                 {
                     string apiResponse = await response.Content.ReadAsStringAsync();
 
@@ -43,7 +43,7 @@ namespace ClienteMVC.Controllers
 
                 StringContent content = new StringContent(JsonConvert.SerializeObject(jogo), Encoding.UTF8, "application/json");
 
-                using (var response = await httpClient.PostAsync("http://localhost:5092/api/Jogos", content))
+                using (var response = await httpClient.PostAsync("https://localhost:5001/api/Jogos", content))
                 {
                     string apiResponse = await response.Content.ReadAsStringAsync();
 
@@ -65,7 +65,7 @@ namespace ClienteMVC.Controllers
 
                 httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
 
-                using (var response = await httpClient.GetAsync("http://localhost:5092/api/Jogos/" + id))
+                using (var response = await httpClient.GetAsync("https://localhost:5001/api/Jogos/" + id))
                 {
                     string apiResponse = await response.Content.ReadAsStringAsync();
                     jogo = JsonConvert.DeserializeObject<Jogo>(apiResponse);
@@ -90,7 +90,7 @@ namespace ClienteMVC.Controllers
 
 
 
-                using (var response = await httpClient.PutAsync("http://localhost:5092/api/Jogos/" + jogo.Id, content))
+                using (var response = await httpClient.PutAsync("https://localhost:5001/api/Jogos/" + jogo.Id, content))
                 {
                     string apiResponse = await response.Content.ReadAsStringAsync();
                     ViewBag.Result = "Success";
@@ -100,7 +100,7 @@ namespace ClienteMVC.Controllers
             return View(jogoAtualizado);
         }
 
-        [HttpPost]
+        [HttpDelete]
         public async Task<IActionResult> Delete(int id)
         {
             var accessToken = HttpContext.Session.GetString("JWToken");
@@ -109,7 +109,7 @@ namespace ClienteMVC.Controllers
             {
                 httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
 
-                using (var response = await httpClient.DeleteAsync("http://localhost:5092/api/Jogos/" + id))
+                using (var response = await httpClient.DeleteAsync("https://localhost:5001/api/Jogos/" + id))
                 {
                     string apiResponse = await response.Content.ReadAsStringAsync();
                 }

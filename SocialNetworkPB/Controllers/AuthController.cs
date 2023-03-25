@@ -72,7 +72,7 @@ namespace SocialNetworkPB.Controllers
 
             var token = GenerateToken(identityUser);
 
-            return Ok(new { Token = token, Message = "Login realizado!" });
+            return Ok(token);
 
         }
 
