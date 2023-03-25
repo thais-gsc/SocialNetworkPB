@@ -6,6 +6,8 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using SocialNetworkPB.Configuration;
 using SocialNetworkPB.Data;
+using SocialNetworkPB.Repository;
+using SocialNetworkPB.Services;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -82,6 +84,8 @@ builder.Services.AddSwaggerGen(option =>
             }
         });
 });
+
+builder.Services.AddTransient<IAzureStorage, AzureStorage>();
 
 var app = builder.Build();
 
