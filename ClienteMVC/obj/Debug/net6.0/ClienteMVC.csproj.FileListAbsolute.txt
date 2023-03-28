@@ -6,6 +6,9 @@ D:\Thais\Infnet\Desenvolvimento C#\Projeto de Bloco\TP6\SocialNetworkPB\ClienteM
 D:\Thais\Infnet\Desenvolvimento C#\Projeto de Bloco\TP6\SocialNetworkPB\ClienteMVC\bin\Debug\net6.0\ClienteMVC.runtimeconfig.json
 D:\Thais\Infnet\Desenvolvimento C#\Projeto de Bloco\TP6\SocialNetworkPB\ClienteMVC\bin\Debug\net6.0\ClienteMVC.dll
 D:\Thais\Infnet\Desenvolvimento C#\Projeto de Bloco\TP6\SocialNetworkPB\ClienteMVC\bin\Debug\net6.0\ClienteMVC.pdb
+D:\Thais\Infnet\Desenvolvimento C#\Projeto de Bloco\TP6\SocialNetworkPB\ClienteMVC\bin\Debug\net6.0\Azure.Core.dll
+D:\Thais\Infnet\Desenvolvimento C#\Projeto de Bloco\TP6\SocialNetworkPB\ClienteMVC\bin\Debug\net6.0\Azure.Storage.Blobs.dll
+D:\Thais\Infnet\Desenvolvimento C#\Projeto de Bloco\TP6\SocialNetworkPB\ClienteMVC\bin\Debug\net6.0\Azure.Storage.Common.dll
 D:\Thais\Infnet\Desenvolvimento C#\Projeto de Bloco\TP6\SocialNetworkPB\ClienteMVC\bin\Debug\net6.0\Humanizer.dll
 D:\Thais\Infnet\Desenvolvimento C#\Projeto de Bloco\TP6\SocialNetworkPB\ClienteMVC\bin\Debug\net6.0\MessagePack.dll
 D:\Thais\Infnet\Desenvolvimento C#\Projeto de Bloco\TP6\SocialNetworkPB\ClienteMVC\bin\Debug\net6.0\MessagePack.Annotations.dll
@@ -56,6 +59,8 @@ D:\Thais\Infnet\Desenvolvimento C#\Projeto de Bloco\TP6\SocialNetworkPB\ClienteM
 D:\Thais\Infnet\Desenvolvimento C#\Projeto de Bloco\TP6\SocialNetworkPB\ClienteMVC\bin\Debug\net6.0\System.Composition.TypedParts.dll
 D:\Thais\Infnet\Desenvolvimento C#\Projeto de Bloco\TP6\SocialNetworkPB\ClienteMVC\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 D:\Thais\Infnet\Desenvolvimento C#\Projeto de Bloco\TP6\SocialNetworkPB\ClienteMVC\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Thais\Infnet\Desenvolvimento C#\Projeto de Bloco\TP6\SocialNetworkPB\ClienteMVC\bin\Debug\net6.0\System.IO.Hashing.dll
+D:\Thais\Infnet\Desenvolvimento C#\Projeto de Bloco\TP6\SocialNetworkPB\ClienteMVC\bin\Debug\net6.0\System.Memory.Data.dll
 D:\Thais\Infnet\Desenvolvimento C#\Projeto de Bloco\TP6\SocialNetworkPB\ClienteMVC\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
 D:\Thais\Infnet\Desenvolvimento C#\Projeto de Bloco\TP6\SocialNetworkPB\ClienteMVC\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\Thais\Infnet\Desenvolvimento C#\Projeto de Bloco\TP6\SocialNetworkPB\ClienteMVC\bin\Debug\net6.0\System.Security.Permissions.dll

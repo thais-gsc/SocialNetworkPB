@@ -1,3 +1,6 @@
+using ClienteMVC.Repository;
+using ClienteMVC.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,6 +10,8 @@ builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(20);
 });
+
+builder.Services.AddTransient<IAzureStorage, AzureStorage>();
 
 var app = builder.Build();
 

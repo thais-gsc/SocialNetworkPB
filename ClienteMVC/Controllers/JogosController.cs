@@ -1,4 +1,5 @@
-﻿using ClienteMVC.Models;
+﻿using Azure.Storage.Blobs;
+using ClienteMVC.Models;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Net.Http.Headers;
@@ -8,6 +9,7 @@ namespace ClienteMVC.Controllers
 {
     public class JogosController : Controller
     {
+        private static string LastFileUpload;
         public async Task<IActionResult> Index()
         {
             List<Jogo> listaJogos = new List<Jogo>();
@@ -58,7 +60,6 @@ namespace ClienteMVC.Controllers
         {
             Jogo jogo = new Jogo();
             var accessToken = HttpContext.Session.GetString("JWToken");
-
 
             using (var httpClient = new HttpClient())
             {

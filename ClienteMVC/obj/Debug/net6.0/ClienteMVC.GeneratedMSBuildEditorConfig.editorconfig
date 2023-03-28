@@ -32,6 +32,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Thais/Infnet/Desenvolvimento C\#/Projeto de Bloco/TP6/SocialNetworkPB/ClienteMVC/Views/Image/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Thais/Infnet/Desenvolvimento C\#/Projeto de Bloco/TP6/SocialNetworkPB/ClienteMVC/Views/Jogos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nb3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -44,12 +48,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nb3NcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Thais/Infnet/Desenvolvimento C\#/Projeto de Bloco/TP6/SocialNetworkPB/ClienteMVC/Views/Jogos/UploadFile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9nb3NcVXBsb2FkRmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Thais/Infnet/Desenvolvimento C\#/Projeto de Bloco/TP6/SocialNetworkPB/ClienteMVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Thais/Infnet/Desenvolvimento C\#/Projeto de Bloco/TP6/SocialNetworkPB/ClienteMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Thais/Infnet/Desenvolvimento C\#/Projeto de Bloco/TP6/SocialNetworkPB/ClienteMVC/Views/Storage/LatestImage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmFnZVxMYXRlc3RJbWFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Thais/Infnet/Desenvolvimento C\#/Projeto de Bloco/TP6/SocialNetworkPB/ClienteMVC/Views/Storage/Upload.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmFnZVxVcGxvYWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Thais/Infnet/Desenvolvimento C\#/Projeto de Bloco/TP6/SocialNetworkPB/ClienteMVC/Views/_ViewImports.cshtml]
