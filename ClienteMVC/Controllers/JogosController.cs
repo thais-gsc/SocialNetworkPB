@@ -9,7 +9,6 @@ namespace ClienteMVC.Controllers
 {
     public class JogosController : Controller
     {
-        private static string LastFileUpload;
         public async Task<IActionResult> Index()
         {
             List<Jogo> listaJogos = new List<Jogo>();
