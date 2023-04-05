@@ -16,7 +16,6 @@
   <ItemGroup>
     <Content Remove="Models\Perfil.cshtml" />
     <Content Remove="Views\Jogos\Delete.cshtml" />
-    <Content Remove="Views\Storage\Index.cshtml" />
   </ItemGroup>
 
   <ItemGroup>

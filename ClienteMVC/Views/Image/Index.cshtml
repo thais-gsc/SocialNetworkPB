@@ -1,0 +1,29 @@
+﻿@model IEnumerable<ClienteMVC.Models.BlobDto>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Galeria de Jogos</h1>
+
+<p>
+    <a asp-action="Create">Nova foto</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Imagem
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                <img src="@item.Uri" alt="Imagem">
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -4,31 +4,29 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<h1>Adicionar</h1>
 
-<h4>BlobDto</h4>
+<h4>Nova imagem</h4>
 <hr />
 @using (Html.BeginForm("Create", "Image", FormMethod.Post, new { enctype = "multipart/form-data" }))
 {
     <fieldset class="form-horizontal">
         <div class="form-group">
-            <label class="control-label col-md-2" for="Photo">Imagem</label>
             <div class="col-md-10">
                 <input type="file" name="photo" />
             </div>
         </div>
+        <br>
         <div class="form-group">
             &nbsp;
-            <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Enviar" class="btn" />
-            </div>
+                <input type="submit" value="Enviar" class="btn btn-primary" />
 
         </div>
     </fieldset>
    
 }
-
+<br />
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Voltar</a>
 </div>
 
