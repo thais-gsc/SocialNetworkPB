@@ -21,6 +21,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.JogoFavorito)
             </th>
+            <th>Ações</th>
         </tr>
     </thead>
     <tbody>
@@ -37,6 +38,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.JogoFavorito)
+            </td>
+            <td>
+                <a asp-controller="Perfil" asp-action="Page1">Ver Coleção</a>
             </td>
         </tr>
 }
