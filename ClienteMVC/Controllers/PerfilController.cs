@@ -25,5 +25,11 @@ namespace ClienteMVC.Controllers
             }
             return View(listaContatos);
         }
+
+        public IActionResult Page1()
+        {
+            
+            return View();
+        }
     }
 }
